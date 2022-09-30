@@ -1,0 +1,30 @@
+
+Var
+
+v: vetor [0..3] de inteiro
+votos, i, j, cont1, cont2: inteiro
+
+Inicio
+
+     repita
+     escreval("DIGITE 13 PARA LULA, DIGITE 22 PARA BOLSONARO")
+     leia(v[i])
+     i <- i + 1
+     votos <- votos + 1
+     limpatela
+     ate votos = 4
+     escreval ("fim da eleição")
+     para j de 0 ate 3 faca
+     se v[j] = 13 entao
+     cont1 <- cont1+1
+     fimse
+     se v[j] = 22 entao
+     cont2 <- cont2 + 1
+     fimse
+     fimpara
+     escreval ("VOTOS PARA 13:", cont1)
+     escreval ("VOTOS PARA 22:", cont2)
+     
+     
+     
+Fimalgoritmo
